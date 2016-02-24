@@ -49,6 +49,7 @@ namespace FontVis
             var fontList = new List<string>();
             fontList.AddRange(Directory.GetFiles(currentFolder, "*.ttf", SearchOption.TopDirectoryOnly));
             fontList.AddRange(Directory.GetFiles(currentFolder, "*.otf", SearchOption.TopDirectoryOnly));
+            fontsList.Items.Clear();
             foreach (var f in fontList)
             {
                 fontsList.Items.Add(Path.GetFileName(f));
@@ -65,6 +66,7 @@ namespace FontVis
                 var fontList = new List<string>();
                 fontList.AddRange(Directory.GetFiles(currentFolder, "*.ttf", SearchOption.TopDirectoryOnly));
                 fontList.AddRange(Directory.GetFiles(currentFolder, "*.otf", SearchOption.TopDirectoryOnly));
+                fontsList.Items.Clear();
                 foreach (var f in fontList)
                 {
                     fontsList.Items.Add(Path.GetFileName(f));

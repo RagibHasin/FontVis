@@ -174,7 +174,7 @@
             this.numFontSz.Size = new System.Drawing.Size(50, 21);
             this.numFontSz.TabIndex = 0;
             this.numFontSz.Value = new decimal(new int[] {
-            12,
+            32,
             0,
             0,
             0});
